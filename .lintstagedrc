@@ -1,0 +1,4 @@
+{
+  "src/**/*.*": ["yarn prettify:fix", "git add ."],
+  "src/**/*.{ts,tsx}": "yarn lint"
+}
