@@ -30,10 +30,10 @@ Scripts that help you run this project.
 yarn start
 
 # it will start android version of the app
-yarn android 
+yarn android
 
 # it will start ios version of the app
-yarn ios 
+yarn ios
 ```
 
 ## License
