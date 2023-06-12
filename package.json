@@ -15,7 +15,8 @@
     "lint": "eslint --ext .{ts,tsx}",
     "prettify": "prettier --config .prettierrc 'src/**/*.*'",
     "prettify:fix": "prettier --config .prettierrc 'src/**/*.*' --write",
-    "prettify:watch": "onchange 'src/**/*.*' -- prettier --config .prettierrc --write {{changed}}"
+    "prettify:watch": "onchange 'src/**/*.*' -- prettier --config .prettierrc --write {{changed}}",
+    "commit": "commit"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,7 @@
     "@babel/runtime": "^7.20.0",
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
+    "@commitlint/prompt-cli": "^17.6.5",
     "@react-native-community/eslint-config": "^3.2.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^29.2.1",
